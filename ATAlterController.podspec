@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "A custom alterController." 
   s.description  = <<-DESC
-                      A custom alterController
+                      A custom alterController 类似ActionSheet的功能
                    DESC
   s.homepage         = "https://github.com/Attu7/ATAlterController"  
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"  
