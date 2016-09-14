@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'  
   s.requires_arc = true  
   
-  s.source_files  = "ATAlterController/*"
+  s.source_files  = "ATAlterController/ATAlterView/*.{h,m}"
   # s.resources = 'Assets'  
   
   # s.ios.exclude_files = 'Classes/osx'  
