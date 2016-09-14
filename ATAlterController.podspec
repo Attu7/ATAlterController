@@ -39,6 +39,5 @@ Pod::Spec.new do |s|
     ss.source_files  = 'ATAlterController/*'
   end  
   
-  s.frameworks = 'Foundation'
 
 end
