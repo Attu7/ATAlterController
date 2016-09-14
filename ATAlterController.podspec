@@ -35,8 +35,8 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'  
   s.requires_arc = true  
   
-  s.subspec 'ATAlterController' do |ss|
-    ss.source_files  = 'ATAlterController/*'
+  s.subspec 'ATAlterView' do |ss|
+    ss.source_files  = 'ATAlterView/*'
   end  
   
 
