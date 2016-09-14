@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'  
   s.author           = { "Attu7" => "953224204@qq.com" }  
   s.source           = { :git => "https://github.com/Attu7/ATAlterController.git", :tag => "1.0.0" }  
+  #s.source_files     = 'ATAlterController/*'
   # s.social_media_url = 'https://twitter.com/NAME'  
   
   s.platform     = :ios, '7.0'  
@@ -34,8 +35,9 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'  
   s.requires_arc = true  
   
-  s.source_files  = "ATAlterController/*"
-  # s.resources = 'Assets'  
+  s.subspec 'ATAlterController' do |ss|
+    ss.source_files  = 'ATAlterController/*'
+  end  
   
   s.frameworks = 'Foundation'
 
