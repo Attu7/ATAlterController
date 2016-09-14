@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage         = "https://github.com/Attu7/ATAlterController"  
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"  
-  s.license          = 'MIT'  
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }    
   s.author           = { "Attu7" => "953224204@qq.com" }  
   s.source           = { :git => "https://github.com/Attu7/ATAlterController.git", :tag => "1.0.0" }  
   #s.source_files     = 'ATAlterController/*'
